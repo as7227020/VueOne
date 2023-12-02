@@ -1,15 +1,15 @@
 <template>
-  <div class="home">
-    首頁
-    <Tabber></Tabber>
-  </div>
+    <div class="list">
+        分類
+        <Tabber></Tabber>
+    </div>
 </template>
 
 <script>
 import Tabber from '../components/common/Tabber'
 export default {
-  name: "HomeView",
-  components:{
+    name :"List",
+    components:{
         Tabber
     }
 };
